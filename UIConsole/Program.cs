@@ -11,9 +11,9 @@ namespace UIConsole
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetByUnitPrice(100,4000))
+            foreach (var product in productManager.GetByUnitPrice(50,100))
             {
-                Console.WriteLine(product.ProductName +" "+product.UnitPrice);
+                Console.WriteLine(product.ProductName);
                 Console.WriteLine("*********************");
             }
 
