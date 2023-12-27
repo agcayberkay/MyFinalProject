@@ -9,8 +9,8 @@ namespace UIConsole
     {
         static void Main(string[] args)
         {
-            //ProductListName();
-            //CategoryListName();
+            ProductListName();
+            CategoryListName();
 
         }
 
